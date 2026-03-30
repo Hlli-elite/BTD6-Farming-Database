@@ -1,0 +1,21 @@
+body {
+    background-image: url('https://www.google.com/imgres?q=website%20image%20background&imgurl=https%3A%2F%2Fpng.pngtree.com%2Fbackground%2F20210714%2Foriginal%2Fpngtree-futuristic-shape-abstract-background-chemistry-technology-concept-for-website-picture-image_1250295.jpg&imgrefurl=https%3A%2F%2Fpngtree.com%2Ffree-backgrounds-photos%2Fwebsite&docid=fgQSqeZbgbcKQM&tbnid=19vyp31heIYhmM&vet=12ahUKEwiMmMSRwsiTAxV2v4kEHQ-_HQMQnPAOegQIExAB..i&w=1200&h=563&hcb=2&ved=2ahUKEwiMmMSRwsiTAxV2v4kEHQ-_HQMQnPAOegQIExAB'); 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-attachment: fixed; 
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.content {
+    text-align: center;
+    color: white;
+    background: rgba(0, 0, 0);
+    padding: 20px;
+    border-radius: 10px;
+}

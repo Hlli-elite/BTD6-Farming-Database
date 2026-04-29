@@ -1,20 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Profile Decryptor</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GD Profile Decryptor</title>
     <link rel="stylesheet" href="style.css">
-    <!-- Required Libraries -->
+    <!-- Decryption and Decompression Libraries -->
     <script src="https://cloudflare.com"></script>
     <script src="https://cloudflare.com"></script>
 </head>
 <body>
-    <h1>File Decryptor</h1>
-    
-    <input type="file" id="fileInput">
-    <br><br>
-    <button id="decryptButton">Decrypt & Preview</button>
-    
-    <div id="output"></div>
+
+    <div class="container">
+        <h1>Profile Decryptor</h1>
+        <p>Select your <code>Profile.Save</code> file:</p>
+        
+        <input type="file" id="fileInput">
+        <br><br>
+        <button id="decryptButton">Decrypt & Preview</button>
+        
+        <div id="output"></div>
+    </div>
 
     <script src="script.js"></script>
 </body>

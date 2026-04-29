@@ -6,12 +6,10 @@
     <title>Profile Decryptor</title>
     <link rel="stylesheet" href="style.css">
     
-    <!-- Load CryptoJS first from CDN -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js" 
-            integrity="sha512-E8QSvWZ0eCLGk4km3hxSsNmGWbLtSCSUcewDQPQWZF6pEU8GlT8a5fF32wOl1i8ftdMhssTrF/OhyGWwonTcXA==" 
-            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- 1. Load CryptoJS -->
+    <script src="https://cloudflare.com"></script>
     
-    <!-- Load Pako second -->
+    <!-- 2. Load Pako (zlib decompression) -->
     <script src="https://cloudflare.com"></script>
 </head>
 <body>
@@ -27,7 +25,7 @@
         <div id="output"></div>
     </div>
 
-    <!-- Finally, load your custom script -->
+    <!-- 3. Load your script LAST -->
     <script src="script.js"></script>
 </body>
 </html>

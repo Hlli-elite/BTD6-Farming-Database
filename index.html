@@ -3,10 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GD Profile Decryptor</title>
+    <title>Profile Decryptor</title>
     <link rel="stylesheet" href="style.css">
-    <!-- Decryption and Decompression Libraries -->
-    <script src="https://cloudflare.com"></script>
+    
+    <!-- Load CryptoJS first from CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js" 
+            integrity="sha512-E8QSvWZ0eCLGk4km3hxSsNmGWbLtSCSUcewDQPQWZF6pEU8GlT8a5fF32wOl1i8ftdMhssTrF/OhyGWwonTcXA==" 
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <!-- Load Pako second -->
     <script src="https://cloudflare.com"></script>
 </head>
 <body>
@@ -22,6 +27,7 @@
         <div id="output"></div>
     </div>
 
+    <!-- Finally, load your custom script -->
     <script src="script.js"></script>
 </body>
 </html>

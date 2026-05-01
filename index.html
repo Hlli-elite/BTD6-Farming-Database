@@ -2,30 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile Decryptor</title>
-    <link rel="stylesheet" href="style.css">
-    
-    <!-- 1. Load CryptoJS -->
-    <script src="https://cloudflare.com"></script>
-    
-    <!-- 2. Load Pako (zlib decompression) -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Include pako for decompression -->
     <script src="https://cloudflare.com"></script>
 </head>
 <body>
-
     <div class="container">
-        <h1>Profile Decryptor</h1>
-        <p>Select your <code>Profile.Save</code> file:</p>
-        
+        <h1>Decrypt Profile.Save</h1>
         <input type="file" id="fileInput">
-        <br><br>
-        <button id="decryptButton">Decrypt & Preview</button>
-        
-        <div id="output"></div>
+        <p id="status"></p>
     </div>
-
-    <!-- 3. Load your script LAST -->
     <script src="script.js"></script>
 </body>
 </html>
